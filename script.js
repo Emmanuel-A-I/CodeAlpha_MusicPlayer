@@ -7,29 +7,23 @@
                 artist: "Soldier",
                 duration: 302, // in seconds
                 src: "songs/song1.mp3",
-                cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80"
+                cover: "sol.jpg"
             },
             {
                 title: "Someone",
                 artist: "Chike",
                 duration: 248,
                 src: "songs/song2.mp3",
-                cover: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80"
+                cover: "chike2.jpg"
             },
             {
                 title: "Available",
                 artist: "Chike",
                 duration: 316,
                src: "songs/song3.mp3",
-                cover: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&q=80"
+                cover: "chike3.jpg"
             },
-            {
-                title: "Mavin",
-                artist: "Don-jazy",
-                duration: 302,
-                src: "songs/song4.mp3",
-                cover: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=800&q=80"
-            },
+       
        
         ];
         
