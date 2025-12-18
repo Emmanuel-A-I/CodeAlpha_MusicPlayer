@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAlpha_Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="player-header">
+            <h1>CodeAlpha_Music Player</h1>
+            <div class="autoplay-toggle">
+                <span>Autoplay</span>
+                <div class="toggle-switch active" id="autoplayToggle"></div>
+            </div>
+        </div>
+
+        <div class="album-art">
+            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80" alt="Album Art" id="albumImg">
+        </div>
+
+        <div class="song-info">
+            <h2 class="song-title" id="songTitle">No Song Selected</h2>
+            <p class="song-artist" id="songArtist">None</p>
+            <p class="song-duration" id="songTime">0:00 / 0:00</p>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar" id="progressBar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="time-stamps">
+                <span id="currentTime">0:00</span>
+                <span id="totalTime">0:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" id="prevBtn">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <button class="control-btn play-pause" id="playBtn">
+                <i class="fas fa-play" id="playIcon"></i>
+            </button>
+            <button class="control-btn" id="nextBtn">
+                <i class="fas fa-step-forward"></i>
+            </button>
+        </div>
+
+        <div class="volume-control">
+            <i class="fas fa-volume-up volume-icon"></i>
+            <div class="volume-slider" id="volumeBar">
+                <div class="volume-progress" id="volumeLevel"></div>
+            </div>
+        </div>
+
+        <ul class="playlist" id="playlist">
+            <!-- Songs will be added by JavaScript -->
+        </ul>
+    </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
